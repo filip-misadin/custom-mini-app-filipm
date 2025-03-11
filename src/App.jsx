@@ -11,7 +11,7 @@ export default function App() {
         <CardContent>
           {screen === "home" && (
             <div>
-              <h1 className="text-xl font-bold mb-4">Home Screen</h1>
+              <h1 className="text-xl font-bold mb-4">Home Screen v2</h1>
               <p>Welcome to the simple navigation app!</p>
               <div className="mt-4 space-x-2">
                 <Button onClick={() => setScreen("about")} variant="outline">
