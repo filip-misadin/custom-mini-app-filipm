@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Button } from "./components/ui/button";
 import { Card, CardContent } from "./components/ui/card";
+import myImage from "./assets/testimg1.jpg";
 
 export default function App() {
   const [screen, setScreen] = useState("home");
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
+      <img src={myImage} alt="Description" className="w-64 h-auto" />
       <Card className="w-full max-w-md p-4 text-center">
         <CardContent>
           {screen === "home" && (
