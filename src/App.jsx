@@ -16,7 +16,7 @@ export default function App() {
               <h1 className="text-xl font-bold mb-4">Home Screen v5</h1>
               <p>Welcome to the simple navigation app!</p>
               <div className="mt-4 space-x-2">
-                <Button onClick={() => setScreen("about")} variant="outline">
+                <Button onClick={() => window.open('https://enchanting-frangollo-294255.netlify.app/about', '_blank')} variant="outline">
                   Go to About
                 </Button>
                 <Button onClick={() => setScreen("contact")} variant="outline">
