@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "./components/ui/button";
-import { DeepLinkButton } from "./components/ui/DeepLinkButton";
+import DeepLinkButton from "./components/ui/DeepLinkButton";
 import { Card, CardContent } from "./components/ui/card";
 import myImage from "./assets/testimg1.jpg";
 
