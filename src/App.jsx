@@ -45,7 +45,10 @@ export default function App() {
                 Back to Home
               </Button>
 	      <a href="intent://worldcoin.org/mini-app?app_id=app_acd85595213ca97827cbadfa4bd85321#Intent;scheme=https;action=android.intent.action.VIEW;package=com.worldcoin;end;">
-    	       Open in App
+    	       Intent Schema
+	      </a>
+	      <a href="worldapp://worldcoin.org/mini-app?app_id=app_acd85595213ca97827cbadfa4bd85321#Intent">
+    	       World App Schema
 	      </a>
 	      <DeepLinkButton />
             </div>
