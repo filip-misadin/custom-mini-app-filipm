@@ -43,7 +43,7 @@ export default function App() {
               <Button onClick={() => setScreen("home")} className="mt-4">
                 Back to Home
               </Button>
-	      <a href="intent://worldcoin.org/mini-app?app_id=app_acd85595213ca97827cbadfa4bd85321#Intent;scheme=https;action=android.intent.action.VIEW;package=org.worldcoin.app;end;">
+	      <a href="intent://worldcoin.org/mini-app?app_id=app_acd85595213ca97827cbadfa4bd85321#Intent;scheme=https;action=android.intent.action.VIEW;package=com.worldcoin;end;">
     	       Open in App
 	      </a>
             </div>
