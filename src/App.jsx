@@ -43,6 +43,9 @@ export default function App() {
               <Button onClick={() => setScreen("home")} className="mt-4">
                 Back to Home
               </Button>
+	      <a href="intent://worldcoin.org/mini-app?app_id=app_acd85595213ca97827cbadfa4bd85321#Intent;scheme=https;package=your.package.name;end;">
+    	       Open in App
+	      </a>
             </div>
           )}
         </CardContent>
