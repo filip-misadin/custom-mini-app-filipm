@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "./components/ui/button";
+import { DeepLinkButton } from "./components/ui/DeepLinkButton";
 import { Card, CardContent } from "./components/ui/card";
 import myImage from "./assets/testimg1.jpg";
 
@@ -46,6 +47,7 @@ export default function App() {
 	      <a href="intent://worldcoin.org/mini-app?app_id=app_acd85595213ca97827cbadfa4bd85321#Intent;scheme=https;action=android.intent.action.VIEW;package=com.worldcoin;end;">
     	       Open in App
 	      </a>
+	      <DeepLinkButton />
             </div>
           )}
         </CardContent>
