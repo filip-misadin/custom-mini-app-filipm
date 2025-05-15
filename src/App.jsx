@@ -51,7 +51,9 @@ export default function App() {
     	       World App Schema
 	      </a>
 	      <DeepLinkButton />
-	      <button onclick="document.getElementById('fileInput').click()">Select Files</button>
+	      <button onClick={() => document.getElementById('fileInput').click()}>
+  		Select Files
+	      </button>
 	      <input type="file" id="fileInput" multiple accept="image/*,application/pdf" style="display:none;" />
             </div>
           )}
